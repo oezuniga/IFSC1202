@@ -1,5 +1,10 @@
-from math import floor
-# program that prompts for a length of time in days
-# time "t", day "d", weeks "wks", months "m", years "y"
-t,d,wks,m,y = "time","day","weeks","months","years"
-A = input("Enter Length of Time in Days: ")
+# Three sides of the triangle is a, b and c:  
+a = float(input('Enter first side: '))  
+b = float(input('Enter second side: '))  
+c = float(input('Enter third side: '))  
+  
+# calculate the semi-perimeter  
+s = (a + b + c) / 2  
+# calculate the area  
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5  
+print('The area of the triangle is %0.2f' %area)   
