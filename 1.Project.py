@@ -48,3 +48,10 @@ print("y = ", years2)
 print("m = ", months2)
 print("wks =", weeks2)
 print("d = ", days2)
+
+
+
+#trial run for dna to protein
+##
+#need amino acid tabl
+# read 3 letter per amino acid
